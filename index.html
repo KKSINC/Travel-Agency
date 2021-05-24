@@ -1,0 +1,2423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+      body {
+    
+}
+
+
+
+/* Created by Achiever 💞 <;-;> */
+
+*{
+    font-family:'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+    font-family:'Nunito', sans-serif;
+    background-color:whitesmoke;
+    max-width:100vw;
+    overflow-x:hidden;
+    
+    
+}
+
+#nav{
+    font-size:25px;
+    position:fixed ;
+    left:5vh;
+    top:12vh;
+}
+
+#explore{
+    position:absolute ;
+    top:12vh;
+    left:5vh;
+    font-size:25px;
+}
+
+.types{
+    width:100%;
+    height:100px;
+    background-color:whitesmoke;
+    border-radius:1px;
+    position:relative ;
+    top:23vh;
+    overflow:scroll ;
+}
+
+#desert{
+    font-size:14px;
+    color:#e54;
+    position:absolute ;
+    top:-1vh;
+    -webkit-text-stroke:0.2px #000;
+    left:1vh;
+}
+#beach{
+    font-size:14px;
+    color:#000;
+    position:absolute ;
+    top:-1vh;
+    -webkit-text-stroke:0.2px #000;
+    left:15vh;
+}
+#wonders{
+    font-size:14px;
+    color:#000;
+    position:absolute ;
+    top:-1vh;
+    -webkit-text-stroke:0.2px #000;
+    left:26vh;
+}
+
+.img_can{
+    width:100%;
+    height:1000px;
+    background-color:whitesmoke;
+    position:absolute ;
+    top:40vh;
+    
+}
+
+#desert_img1{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:7vh;
+    border-radius:0px 0px 6px 0px;
+    transition:1s;
+}
+
+#info-can1{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:24.4%;
+    z-index:1;
+}
+#txt1{
+    color:white;
+}
+
+#book1{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:37vh;
+    top:40vh;
+}
+#desert_img2{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:30vh;
+    top:62vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#info-can2{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:30vh;
+    top:95vh;
+    z-index:1;
+}
+#txt2{
+    color:white;
+}
+
+#book2{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:7vh;
+    top:100vh;
+}
+
+#desert_img3{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:125vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#info-can3{
+     width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:155vh;
+    z-index:1;
+}
+#txt3{
+    color:white;
+}
+
+#book3{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:37vh;
+    top:165vh;
+}
+.footer{
+    width:100%;
+    height:8vh;
+    background-color:white;
+    position:fixed ;
+    top:0px;
+    box-shadow:0 0 2px black;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#icon1{    
+    font-size:23px;
+    top:2vh;
+    color:#e44;
+    -webkit-text-stroke:0.2px #000;
+}
+
+.add_can{
+    width:50px;
+    height:50px;
+    background-color:white;
+    box-shadow:0 0 3px #a9a9a9;
+    border-radius:52px;   
+    display:flex;   
+    align-items:center;  
+    justify-content:center;
+}
+
+.footer > div{
+    font-size:26px;
+    color:#a9a9a9;
+    -webkit-text-stroke:0.3px #000;
+}
+
+.add_can:active{
+    width:48px;
+    height:48px;
+    font-size:20px;
+}
+
+#img1book{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:11vh;
+}
+
+#img2book{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:33vh;
+    top:65vh;
+}
+
+#img3book{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:130vh;
+}
+.info_ofp{
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    position:fixed ;
+    top:0px;
+    left:0px;
+    z-index:10000;
+    transition:1s;
+    left:2000px;
+}
+
+#pimg2{
+    width:100%;
+    height:380px;
+}
+
+.price_can{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    background-color:white;
+    box-shadow:0 0 3px grey;
+    position:absolute ;
+    top:63vh;
+    left:5vh;
+}
+
+#tag1{
+    font-size:30px;
+    color:#e64;
+    position:relative ;
+    top:3vh;
+}
+
+#price1{
+    font-size:23px;
+    top:7.5vh;
+    position:absolute ;
+    left:1.3vh;
+    font-size:18px;
+}
+.time_can{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    background-color:white;
+    box-shadow:0 0 3px grey;
+    position:absolute ;
+    top:63vh;
+    left:25vh;
+}
+
+#tag2{
+    font-size:30px;
+    color:#e64;
+    position:relative ;
+    top:3vh;
+}
+
+#time1{
+    font-size:23px;
+    top:7.5vh;
+    position:absolute ;
+    left:0.9vh;
+    font-size:18px;
+}
+
+#text1{
+    position:absolute ;
+    top:-2vh;
+    left:11vh;
+    color:#adadad;
+}
+
+.type_can{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    background-color:white;
+    box-shadow:0 0 3px grey;
+    position:absolute ;
+    top:63vh;
+    left:45vh;
+}
+
+#tag3{
+    width:30px;
+    height:30px;
+    color:#e64;
+    position:relative ;
+    top:2.3vh;
+    font-size:18px;
+}
+
+#type1{
+    font-size:23px;
+    top:7.5vh;
+    position:absolute ;
+    left:0.9vh;
+    font-size:18px;
+}
+#e{
+    position:relative ;
+    top:-18px;
+    font-size:14px;
+}
+
+
+#book_btn{
+    width:100%;
+    height:70px;
+    background-color:#e64;
+    color:white;
+    font-size:3vh;
+    position:absolute ;
+    top:90.5vh;
+    font-weight:bold;
+    border:none;
+    border-radius:4px;
+    
+}
+
+#lorem{
+    position:absolute ;
+    top:78vh;
+    font-size:15px;
+    
+}
+
+.form{
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    z-index:110000;
+    position:fixed ;
+    top:0px;
+    left:0px;
+    transition:0.8s;
+    left:2000px;
+}
+
+#mobile_input{
+    width:60%;
+    height:30px;
+    position:relative ;
+    margin:auto ;
+    border:1px solid;
+    top:20vh;
+    outline:none;
+    border-radius:5px;
+}
+
+#bank_input{
+    width:60%;
+    height:30px;
+    position:relative ;
+    margin:auto ;
+    border:1px solid;
+    top:25vh;
+    outline:none;
+    border-radius:5px;
+}
+
+#country_input{
+    width:60%;
+    height:30px;
+    position:relative ;
+    margin:auto ;
+    border:1px solid;
+    top:30vh;
+    outline:none;
+    border-radius:5px;
+}
+
+#number_pepole{
+    font-size:40px;
+    position:absolute ;
+    top:60vh;
+    left:5vh;
+    color:white;
+    -webkit-text-stroke:4px #e54;
+}
+
+#inc{
+    font-size:25px;
+    position:absolute ;
+    top:58vh;
+    left:15vh;
+}
+
+#dec{
+    font-size:25px;
+    position:absolute ;
+    top:63vh;
+    left:15vh;
+}
+
+#total{
+    position:absolute ;
+    font-size:20px;
+    top:64vh;
+    left:7vh;
+    color:mediumseagreen;
+}
+
+#submit_btn{
+    width:100%;
+    height:70px;
+    background-color:#e64;
+    color:white;
+    font-size:3vh;
+    position:absolute ;
+    top:90.5vh;
+    font-weight:bold;
+    border:none;
+    border-radius:4px;
+}
+
+#desert_type{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    border:1px solid;
+    position:absolute ;
+    left:4vh;
+}
+
+#urban_type{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    border:1px solid;
+    position:absolute ;
+    left:22vh;
+}
+
+#tropic_type{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    border:1px solid;
+    position:absolute ;
+    left:40vh;
+}
+
+#rainfall_type{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    position:absolute ;
+    left:55vh;
+    border:0.5px solid;
+}
+
+#desert_type_text{
+    position:absolute ;
+    top:8vh;
+    left:5.5vh;
+    color:#e54;
+}
+
+#urban_type_text{
+    position:absolute ;
+    top:8vh;
+    left:23.9vh;
+    color:#000;
+}
+
+#tropic_type_text{
+    position:absolute ;
+    top:8vh;
+    left:41.5vh;
+    color:#000;
+}
+
+#rainfall_type_text{
+    position:absolute ;
+    top:8vh;
+    left:55.5vh;
+    color:#000;
+}
+
+.img_can2{
+    width:100%;
+    height:1000px;
+    background-color:whitesmoke;
+    position:absolute ;
+    top:300vh;
+    
+}
+
+#urban_img1{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:7vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#urban-info-can1{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:24.4%;
+    z-index:1;
+}
+#urban-txt1{
+    color:white;
+}
+
+#urban-book1{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:relative ;
+    left:40vh;
+    top:-2vh;
+}
+#urban_img2{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:30vh;
+    top:62vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#urban-info-can2{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:30vh;
+    top:95vh;
+    z-index:1;
+}
+#urban-txt2{
+    color:white;
+}
+
+#urban-book2{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:7vh;
+    top:100vh;
+}
+
+#urban_img3{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:125vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#urban-info-can3{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:155vh;
+    z-index:1;
+}
+#urban-txt3{
+    color:white;
+}
+
+#urban-book3{
+   width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:37vh;
+    top:165vh;
+}
+
+#img1book1{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:11vh;
+}
+#img2book2{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:33vh;
+    top:65vh;
+}
+
+#img3book3{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:130vh;
+}
+
+
+
+
+.img_can3{
+    width:100%;
+    height:1000px;
+    background-color:whitesmoke;
+    position:absolute ;
+    top:550vh;
+    
+}
+
+#tropic_img1{
+     width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:7vh;
+    border-radius:0px 0px 6px 0px
+}
+
+#tropic-info-can1{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:24.4%;
+    z-index:1;
+}
+#tropic-txt1{
+    color:white;
+}
+
+#tropic-book1{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:37vh;
+    top:40vh;
+}
+#tropic_img2{
+   width:45%;
+    height:280px;
+    position:absolute ;
+    left:30vh;
+    top:62vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#tropic-info-can2{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:30vh;
+    top:95vh;
+    z-index:1;
+}
+#tropic-txt3{
+    color:white;
+}
+
+#tropic-book3{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:absolute ;
+    left:7vh;
+    top:100vh;
+}
+
+#tropic_img3{
+    width:45%;
+    height:280px;
+    position:absolute ;
+    left:1vh;
+    top:125vh;
+    border-radius:0px 0px 6px 0px;
+}
+
+#tropic-info-can3{
+    width:45%; 
+    height:83px;
+    backdrop-filter:blur(20px);
+    position:absolute ;
+    left:1vh;
+    top:155vh;
+    z-index:1;
+}
+#tropic-txt4{
+    color:white;
+}
+
+#tropic-book4{
+    width:70px;
+    height:35px;
+    background:#e44;
+    color:white;
+    border:none;
+    outline:none;
+    position:relative ;
+    left:37vh;
+    top:165vh;
+}
+
+#t-book1{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:11vh;
+}
+#t-book2{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:33vh;
+    top:65vh;
+}
+
+#t-book3{
+    font-size:30px;
+    color:white;
+    z-index:1;
+    position:absolute ;
+    left:5vh;
+    top:130vh;
+}
+
+
+
+
+
+
+#scrol{
+    position:absolute ;
+    top:820vh;
+}
+
+.full_nav{
+    width:0%;
+    height:100%;
+    position:fixed ;
+    background-color:#1c2e4a;
+    top:0px;
+    left:0px;
+    z-index:1000000;
+    transition:0.2s;
+    text-align:center ;
+    
+}
+
+#nav_home{
+    color:white;
+    font-size:25px;
+    position:relative ;
+    top:5vh;
+    display:none;
+}
+
+#nav_settings{
+    color:white;
+    font-size:25px;
+    position:relative ;
+    top:8vh;
+    display:none;
+}
+
+#nav_upload{
+    color:white;
+    font-size:20px;
+    position:relative ;
+    top:12vh;
+    display:none;
+}
+
+#nav_profile{
+    color:white;
+    font-size:25px;
+    position:relative ;
+    top:16vh;
+    display:none;
+}
+
+
+#nav_book{
+    color:white;
+    font-size:25px;
+    position:relative ;
+    top:20vh;
+    display:none;
+}
+
+#nav_about{
+    color:white;
+    font-size:25px;
+    position:relative ;
+    top:24vh;
+    display:none;
+}
+
+#nav_back{
+    position:absolute ;
+    font-size:35px;
+    color:white;
+    left:95%;
+    top:50%;
+    -webkit-text-stroke:1px #000;
+    display:none;
+}
+
+.main_settings{
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    position:fixed ;
+    top:0px;
+    left:0px;
+    z-index:100000;
+    background-color:white;
+    display:none;
+}
+
+#set_txt{
+    position:relative ;
+    top:2vh;
+}
+
+#back{
+    position:absolute ;
+    top:4.3vh;
+    font-size:23px;
+    left:3vh;
+    font-weight:lighter;
+}
+
+#input{
+    position:relative ;
+    width:80%;
+    height:35px;
+    background-color:#eee;
+    border:none;
+    top:7vh;
+    border-radius:5px;
+    outline:none ;
+    font-weight:bold;
+}
+
+#icon{
+    position:absolute ;
+    left:7vh;
+    top:17.4vh;
+}
+
+::placeholder{
+    color:black;
+    font-weight:bold;
+    left:35px;
+    position:relative ;
+}
+
+.account_area{
+    width:90%;
+    position:relative ;
+    height:50px;
+    border:1px solid white;
+    border-bottom-color:black;
+    top:-70vh;
+    margin:auto ;
+    z-index:1000000;
+    display:none;
+}
+
+#user{
+    position:absolute ;
+    font-size:27px;
+    color:white;
+    -webkit-text-stroke:2px #000;
+    left:3vh;
+    top:2vh;
+}
+
+#user-text{
+    position:absolute ;
+    left:9vh;
+    top:-0.2vh;
+    color:black;
+}
+
+
+#go1{
+    position:absolute ;
+    font-size:20px;
+    color:black;
+    -webkit-text-stroke:2px #000;
+    left:45vh;
+    top:3vh;
+}
+
+.not_area{
+    width:90%;
+    position:relative ;
+    height:50px;
+    border:1px solid white;
+    border-bottom-color:black;
+    top:-50vh;
+    margin:auto ;
+    text-decoration:none;
+    z-index:1000000;
+    display:none;
+}
+
+#bell{
+    position:absolute ;
+    font-size:27px;
+    color:white;
+    -webkit-text-stroke:2px #000;
+    left:3vh;
+    top:2vh;
+}
+
+#not-text{
+    position:absolute ;
+    left:9vh;
+    top:-0.2vh;
+    color:black;
+}
+
+
+#go2{
+    position:absolute ;
+    font-size:20px;
+    color:black;
+    -webkit-text-stroke:2px #000;
+    left:45vh;
+    top:3vh;
+}
+
+.pri_area{
+    width:90%;
+    position:relative ;
+    height:50px;
+    border:1px solid white;
+    border-bottom-color:black;
+    top:-50vh;
+    margin:auto ;
+    z-index:1000000;
+    display:none;
+}
+
+#lock{
+    position:absolute ;
+    font-size:27px;
+    color:white;
+    -webkit-text-stroke:2px #000;
+    left:3vh;
+    top:2vh;
+}
+
+#pri-text{
+    position:absolute ;
+    left:9vh;
+    top:-0.2vh;
+    color:black;
+}
+
+
+#go3{
+    position:absolute ;
+    font-size:20px;
+    color:black;
+    -webkit-text-stroke:2px #000;
+    left:45vh;
+    top:3vh;
+}
+
+.ab_area{
+    width:90%;
+    position:relative ;
+    height:50px;
+    border:1px solid white;
+    border-bottom-color:black;
+    top:-45vh;
+    margin:auto ;
+    z-index:1000000;
+    display:none;
+}
+
+#info{
+    position:absolute ;
+    font-size:27px;
+    color:white;
+    -webkit-text-stroke:1.5px #000;
+    left:3vh;
+    top:2vh;
+}
+
+#ab-text{
+    position:absolute ;
+    left:9vh;
+    top:-0.2vh;
+    color:black;
+    z-index:10000000;
+}
+
+
+#go4{
+    position:absolute ;
+    font-size:20px;
+    color:black;
+    -webkit-text-stroke:2px #000;
+    left:45vh;
+    top:3vh;
+}
+
+
+#pyramid_txt{
+    position:absolute ;
+    top:6vh;
+    left:28.5vh;
+}
+
+#moab_txt{
+    position:absolute ;
+    top:63vh;
+    left:2.3vh;
+}
+
+#jos_txt{
+    position:absolute ;
+    top:123vh;
+    left:28.5vh;
+}
+
+#burj_txt{
+    position:relative ;
+    top:-42vh;
+    left:30vh;
+}
+
+#e_txt{
+     position:absolute ;
+    top:63vh;
+    left:2.3vh;
+}
+
+#others_img{
+    width:150px;
+    height:150px;
+    position:relative ;
+    top:210vh;
+    border-radius:150px;
+}
+
+#others_img_text{
+    font-size:23px;
+    position:relative ;
+    top:210vh;
+    letter-spacing:3px;
+}
+
+
+#others_img_btn{
+    width:120px;
+    height:40px;
+    position:relative ;
+    top:225vh;
+    border-radius:5px;
+    background-color:#e44;
+    color:white;
+    outline:none;
+    border:none;
+}
+
+#mum_txt{
+    position:absolute ;
+    top:123vh;
+    left:28.5vh;
+}
+
+
+#mal_txt{
+    position:absolute ;
+    top:6vh;
+    left:28.5vh;
+}
+
+#goa_txt{
+    position:absolute ;
+    top:63vh;
+    left:2.3vh;
+}
+
+#hawai_txt{
+    position:absolute ;
+    top:123vh;
+    left:28.5vh;
+}
+
+.full_formofadd{
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    position:fixed ;
+    left:0px;
+    top:0px;
+    z-index:10000000000;
+    display:none;
+}
+
+#add_names{
+    width:60%;
+    height:30px;
+    position:relative ;
+    border:1px solid;
+    top:20vh;
+    outline:none;
+    border-radius:5px;
+}
+
+#add_price{
+    width:60%;
+    height:30px;
+    position:relative ;
+    margin:auto ;
+    border:1px solid;
+    top:25vh;
+    outline:none;
+    border-radius:5px;
+}
+
+#add_location{
+    width:60%;
+    height:30px;
+    position:relative ;
+    margin:auto ;
+    border:1px solid;
+    top:30vh;
+    outline:none;
+    border-radius:5px;
+}
+
+
+#submit_btn_add{
+    width:100%;
+    height:70px;
+    background-color:#e64;
+    color:white;
+    font-size:3vh;
+    position:absolute ;
+    top:90.5vh;
+    font-weight:bold;
+    border:none;
+    border-radius:4px;
+}
+
+ul{
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    position:fixed ;
+    left:0px;
+    top:-2.3vh;
+    z-index:100000000;
+    overflow:scroll ;
+    display:none;
+    
+}
+
+.card{
+    width:100%;
+    
+    background-color:white;
+    border:0px solid #000;
+    position:relative ;
+    z-index:1000000000000;
+    top:20vh;
+    left:-5vh;
+    margin:10px;
+}
+
+#usernameofplace{
+    position:relative ;
+    color:black;
+    left:5vh;
+    top:2vh;
+    font-size:20px;
+}
+#img_settings{
+    width:150px;
+    height:200px;
+    position:relative ;
+    top:420vh;
+    border:1px solid;
+}
+
+
+#img_settings_text{
+    font-size:23px;
+    position:relative ;
+    top:420vh;
+    letter-spacing:3px;
+    
+}
+
+#settings_btn{
+    width:120px;
+    height:40px;
+    position:relative ;
+    top:435vh;
+    border-radius:5px;
+    background-color:#8565c4;
+    color:white;
+    outline:none;
+    border:none;
+}
+
+.add_imgcan{
+    width:70%;
+    height:200px;
+    border:1px solid;
+    position:relative ;
+    top:240px;
+    margin:auto ;
+}
+
+#imageofadd{
+    position:absolute ;
+    top:200px;
+}
+
+#addimgicon{
+    font-size:30px;
+    position:absolute ;
+    top:550px;
+    left:40vh;
+}
+
+#calender_full{
+    width:100%;
+    height:100%;
+    z-index:100000000000;
+    position:fixed ;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+
+.main_profile{
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    position:fixed  ;
+    z-index:100000000;
+    top:0px;
+    left:0px;
+    color:white;
+    display:none;
+}
+
+.con_profile{
+    width:100px;
+    height:100px;
+    border-radius:80px;
+    position:relative ;
+    border:2px solid;
+    top:40px;
+}
+
+#cam_pro{
+    font-size:30px;
+    position:relative ;
+    top:5vh;
+}
+
+#pro_user{
+    position:relative ;
+    top:10vh;
+    font-size:25px;
+}
+
+#back_img{
+    width:100%;
+    height:250px;
+    position:absolute ;
+}
+
+#back_arrow{
+    position:absolute ;
+    z-index:100;
+    top:4vh;
+    left:5vh;
+}
+
+#go_up{
+    width:40px;
+    height:40px;
+    position:fixed ;
+    top:80vh;
+    left:50vh;
+    z-index:100000000000000000;
+    display:none;
+}
+
+.full_loading{
+    width:100%;
+    height:100%;
+    position:fixed ;
+    background-color:white;
+    left:0px;
+    top:0px;
+    text-align:center ;
+    z-index:100000000;
+}
+
+#bus{
+    width:150px;
+    height:150px;
+    position:relative ;
+    top:30vh;
+}
+
+#loading{
+    position:relative ;
+    font-size:28px;
+    top:30vh;
+}
+
+#point{
+    width:20px;
+    height:20px;
+    background-color:#e548;
+    position:fixed ;
+    border-radius:50px;
+}
+
+#addImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#imageofadd{
+  display: none;
+  
+}
+
+#priceofplace{
+  position:relative;
+  color:black;
+  left:15vh;
+  top:1vh;
+  font-size:20px;
+}
+
+#placeeofplace {
+  position: relative;
+  color: black;
+  left:30vh;
+  top: -14vh;
+  font-size: 20px;
+}
+
+.card-img{
+  width:100%;
+  height:auto;
+  position: relative;
+  top:-5vh;
+  left:0vh;
+}
+
+#backhoja{
+    font-size:25px;
+    position:fixed ;
+    top:5vh;
+    left:5vh;
+    z-index:100000000000000;
+}
+
+#kkstextop{
+    position:fixed ;
+    top:3vh;
+    left:20vh;
+}
+
+#userkipro{
+    width:100%;
+    height:100%;
+    position:absolute ;
+}
+
+#kkstext{
+    position:fixed ;
+    top:11vh;
+    left:30vh;
+}
+  </style>
+</head>
+
+<body>
+  
+
+<!-- Created by Achiever 💞 <;-;> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+           <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+           <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+           <script src="https://cdn.jsdelivr.net/gh/AssassinAguilar/Alertism/dist/V2.0.0/main.js"></script>
+           <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase.js"></script>
+
+<script  src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    
+    <title>Document</title>
+    </head>
+    <body>
+        <div class="fa fa-bars"id="nav"></div>
+        <h3 id="kkstext">KKS TRAVEL AGENCY</h3>
+        <h2 id="explore">Explore</h2>
+        
+        <div class="types">
+          <img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Desert-512.png"id="desert_type"onclick="got_desert()">
+            <p id="desert_type_text">Desert</p>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/450/879/original/vector-urban-icon-of-the-city.jpg"id="urban_type"onclick="got_urban()">
+            <p id="urban_type_text">Urban</p>
+            <img src="https://img.icons8.com/bubbles/2x/beach.png"id="tropic_type"onclick="got_tropic()">
+            <p id="tropic_type_text">Tropic</p>
+           
+            </div>
+        <div class="img_can">
+            <img id="desert_img1"src="https://www.planetware.com/photos-large/EGY/egypt-cairo-pyramids-of-giza-and%20camels-2.jpg">
+            <div class="fa fa-bookmark-o"id="img1book"></div>
+            <div id="info-can1">
+                <center><p id="txt1">Pyramid Of Giza</p></center>
+                
+            </div>
+            <button id="book1"><div class="fa fa-star"></div>Book</button>
+                <h5 id="pyramid_txt">Pyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </img>
+            <img src="https://media4.s-nbcnews.com/j/newscms/2018_25/1347087/travel-guide-for-moab-utah-arches-national-park-today-180619-tease_68f66bd8e63829e706b1fa7ab2ac4426.fit-760w.jpg"id="desert_img2">
+            <div class="fa fa-bookmark-o"id="img2book"></div>
+             <div id="info-can2">
+                <center><p id="txt2">Moab Utah</p></center>
+                
+            </div>
+            <button id="book2"><div class="fa fa-star"></div>Book</button>
+                <h5 id="moab_txt">Pyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Lorem Ipum .<br>Lorem Ipum Disum.</h5>
+            </img>
+            <img src="https://national-park.com/wp-content/uploads/2016/04/Welcome-to-Joshua-Tree-National-Park.jpg"id="desert_img3">
+            <div class="fa fa-bookmark-o"id="img3book"></div>
+             <div id="info-can3">
+                <center><p id="txt3">Joshua Tree Park</p></center>
+               
+            </div>
+             <button id="book3"><div class="fa fa-star"></div>Book</button>
+                    <h5 id="jos_txt">Pyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </img>
+        </div>
+        <div class="footer">
+            <div class="fa fa-home"id="icon1"></div>
+            <div class="fa fa-cog"id="icon2"></div>
+             <div class="add_can"onclick="add_place()">
+                    <div class="fa fa-plus"id="icon3"></div>
+                </div>
+            <div class="fa fa-calendar-plus-o"id="icon4"onclick="dikha_cal()"></div>
+            <div class="fa fa-user-o"id="icon5"></div>            
+        </div>
+        <div class="info_ofp">
+            <img src="https://www.planetware.com/photos-large/EGY/egypt-cairo-pyramids-of-giza-and%20camels-2.jpg"id="pimg2">
+          <center><h4 id="e">Pyramid Of Giza</h4></center>  
+          <div class="price_can">
+         <center> <div class="fa fa-tags"id="tag1"></div></center>
+         <p id="price1">150$</p>
+         
+          </div>
+          <div class="time_can">
+         <center> <div class="fa fa-clock-o"id="tag2"></div></center>
+         <p id="time1">10Days</p>
+         
+          </div>
+          <div class="type_can">
+         <center> <img src="https://img.icons8.com/cute-clipart/344/fa314a/cactus.png"id="tag3"></center>
+         <p id="type1">Desert</p>
+         
+          </div>
+          <p id="lorem">Pyramid Of Gizza Are Ancient House Of Mummys.Upvote This Code.</p>
+          <button id="book_btn">Book Now</button>
+        </div>
+        <div class="form">
+           <center><input placeholder="Enter Your Mobile Number"type="number"id="mobile_input">
+            <input placeholder="Enter Your Bank Account"type="number"id="bank_input">
+            <input placeholder="Enter Your Country"type="text"id="country_input">
+            </center>
+            <div class="fa fa-users"id="number_pepole"></div>
+            <div class="fa fa-chevron-up"id="inc"></div>
+            <div class="fa fa-chevron-down"id="dec"></div>
+            <p id="total">1</p>
+            <button id="submit_btn">Submit</button>
+            </div>
+            <div class="img_can2">
+            <img id="urban_img1"src="https://img.etimg.com/thumb/msid-75708946,width-640,resizemode-4,imgsize-200977/bidding-for-burjs-external-lights.jpg">
+            <div class="fa fa-bookmark-o"id="img1book1"></div>
+            <div id="urban-info-can1">
+                <center><p id="urban-txt1">Burj Khalifa</p></center>
+                <button id="urban-book1"><div class="fa fa-star"></div>Book</button>
+                <h5 id="burj_txt">Pyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </div>
+            </img>
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/12/eiffel.jpg?width=1200"id="urban_img2">
+            <div class="fa fa-bookmark-o"id="img2book2"></div>
+             <div id="urban-info-can2">
+                <center><p id="urban-txt3">Eifile Tower</p></center>
+                
+            </div>
+            <button id="urban-book2"><div class="fa fa-star"></div>Book</button>
+                <h5 id="e_txt">;-;-;-;-;-;.<br> ;-; . <br>Come Here If You Want  .<br>Lorem Ipum Disum.</h5>
+            </img>
+            <img src="https://lp-cms-production.imgix.net/image_browser/Mumbai_nightlife_S.jpg"id="urban_img3">
+            <div class="fa fa-bookmark-o"id="img3book3"></div>
+             <div id="urban-info-can3">
+                <center><p id="urban-txt4"style="color:white;">Mumbai</p></center>
+                
+            </div>
+            <button id="urban-book3"><div class="fa fa-star"></div>Book</button>
+                <h5 id="mum_txt">APyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </img>
+        </div>
+        
+        
+        <div class="img_can3">
+            <img id="tropic_img1"src="https://qtxasset.com/Hotel%20Management-1508949476/mercuremaldiveskoodooresortmaldivesexterior.jpg?zbxIScOeOJEvMU8kcH1pm8g7UG9zZegb">
+            <div class="fa fa-bookmark-o"id="t-book1"></div>
+            <div id="tropic-info-can1">
+                <center><p id="tropic-txt1">Maldieves</p></center>
+                
+            </div>
+            <button id="tropic-book1"><div class="fa fa-star"></div>Book</button>
+                <h5 id="mal_txt">APyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </img>
+            <img src="https://imgk.timesnownews.com/story/Goa_beach_PTI_1200_4.jpg?tr=w-400,h-300,fo-auto"id="tropic_img2">
+            <div class="fa fa-bookmark-o"id="t-book2"></div>
+             <div id="tropic-info-can2">
+                <center><p id="tropic-txt3">Goa</p></center>
+                
+            </div>
+            <button id="tropic-book3"><div class="fa fa-star"></div>Book</button>
+                <h5 id="goa_txt">Goa Beach is .<br> Very Awsm. . <br>Come Here If You  .<br>Lorem Ipum Disum.</h5>
+            </img>
+            <img src="https://cdn.travelpulse.com/images/54aaedf4-a957-df11-b491-006073e71405/ee952e9e-f09c-49c2-bc5d-4303c880173a/630x355.jpg"id="tropic_img3">
+            <div class="fa fa-bookmark-o"id="t-book3"></div>
+             <div id="tropic-info-can3">
+                <center><p id="tropic-txt4"style="color:white;">Hawai</p></center>
+                
+            </div>
+            <button id="tropic-book4"><div class="fa fa-star"></div>Book</button>
+                <h5 id="hawai_txt">APyramid Of Giza Is House Of .<br> Mummys.Lorem Ipum Disum. . <br>Come Here If You Want To Meet Mummys. .<br>Lorem Ipum Disum.</h5>
+            </img>
+        </div>
+            
+            <div class="full_nav">
+                <h3 id="nav_home"><div class="fa fa-home"></div>Home</h3>
+                 <h3 id="nav_settings"><div class="fa fa-cog"></div>Settings</h3>
+               <h3 id="nav_upload"onclick="sh_places()"><div class="fa fa-users"></div>Uploaded By Users</h3>  
+               <h3 id="nav_profile"><div class="fa fa-user"></div>My Profile</h3>  
+                <h3 id="nav_book"onclick="alert('Due To Covid-19 You Cant see Favriouts')"><div class="fa fa-bookmark-o"></div>Favriouts</h3>  
+                <h3 id="nav_about"onclick='Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "KKS TRAVEL AGENCY IS BEST TRAVEL AGENCY IN WHICH YOU CAN TRAVEL ALL OVER THE WORLD.YOU CAN UPLOAD AND SEE OTHERS PLACES.\n \n \n Created By KKS FOUNDATION \n \n Devloper:Achiever",
+            theme:"glass",
+            animation:"zoom-in"
+             })'><div class="fa fa-info"></div>About</h3>  
+                <div class="fa fa-chevron-right"id="nav_back"onclick="clos_nav()"></div>
+            </div>
+             
+             <center><img src="https://image.freepik.com/free-vector/girl-working-laptop-icon-illustration-work-from-home-mascot-cartoon-character_138676-1024.jpg"id="others_img">
+                 <p id="others_img_text">View Others</p>
+                 <button id="others_img_btn"onclick="sh_places()">View</button>
+             </center>
+             
+             <div class="full_formofadd">
+                 <center><input id="add_names" placeholder="Enter Your Name"></center>
+                 <center><input placeholder="Enter Your Place Price"type="number"id="add_price"></center>
+                 <center><input id="add_location" placeholder="Enter Your Location Of Place"></center>
+                 <button id="submit_btn_add"onclick="whutmo()">Add Place</button>
+                 <div class="add_imgcan">
+                     <img id="addImg">
+                     <input id="imageofadd">
+                 </div>
+                 <div class="fa fa-file-image-o"id="addimgicon"onclick="doit()"></div>
+             </div>
+             <ul id="places">
+                    <div class="fa fa-arrow-left"id="backhoja"onclick="placesback()"></div>
+                    <h3 id="kkstextop">KKS Custom Places</h3>
+             </ul>
+             
+                 <center><img id="img_settings"src="https://cdn4.vectorstock.com/i/thumb-large/83/83/woman-selfie-beautiful-girl-taking-self-photo-vector-26628383.jpg"></center>
+             
+             <center><p id="img_settings_text">Customize App</p></center>
+             <center><button id="settings_btn">Settings</button></center>
+        <p id="scrol">.</p>
+        
+        
+        
+        <div class="main_profile">
+           <img src="https://www.dropbox.com/s/a8k2cbnvdmezlad/img_20210515_125346.jpg?dl=1"id="back_img">
+            <center>
+                <div class="con_profile"onclick="profilelaga()">
+                    <center><div class="fa fa-camera"id="cam_pro"></div></center>
+                    <center><h3 id="pro_user">User</h3></center>
+                    <img id="userkipro">
+                </div>
+                
+            </center>
+            <div class="fa fa-arrow-left"style="font-size:26px;"id="back_arrow"></div>
+        </div>
+        
+         <div class="main_settings">
+            <center><h3 id="text">Settings</h3></center>
+            <div class="fa fa-arrow-left"id="back"></div>
+            <center><input type="text"placeholder="Search Here For Settings"id="input"></div></center>
+        </div>
+        <div class="not_area"onclick="alert('Not Working Now 😓')">
+            <div class="fa fa-bell"id="bell"></div>
+            <h3 id="not-text"onclick="alert('Not Working Now😓')">Dark Theme</h3>
+            <div class="fa fa-chevron-right"id="go2"></div>
+        </div>
+       <div class="account_area">
+            <div class="fa fa-user"id="user"></div>
+            <h3 id="user-text">Account</h3>
+            <div class="fa fa-chevron-right"id="go1"></div>
+        </div>
+          <div class="pri_area"onclick="alert('Dont Upload Bad Things')">
+            <div class="fa fa-lock"id="lock"></div>
+            <h3 id="pri-text">Privacy And Policy</h3>
+            <div class="fa fa-chevron-right"id="go3"></div>
+        </div>
+        <div class="ab_area"onclick='Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "KKS TRAVEL AGENCY IS BEST TRAVEL AGENCY IN WHICH YOU CAN TRAVEL ALL OVER THE WORLD.YOU CAN UPLOAD AND SEE OTHERS PLACES.\n \n \n Created By KKS FOUNDATION \n \n Devloper:Achiever",
+            theme:"glass",
+            animation:"zoom-in"
+             })'>
+            <div class="fa fa-info-circle"id="info"></div>
+            <h3 id="ab-text">About</h3>
+            <div class="fa fa-chevron-right"id="go4"></div>
+        </div>
+        
+        <img src="https://www.shareicon.net/data/512x512/2015/10/18/658175_arrows_512x512.png"id="go_up"onclick="uper_ja()">
+        
+        <div class="full_loading">
+            <img src="https://i.gifer.com/D2s.gif"id="bus">
+            <h3 id="loading">Loading</h3>
+        </div>
+        <div id="point"></div>
+        
+     
+        <script>
+      
+      
+       img1book.onclick=function(){
+           img1book.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Pyramid Of Giza Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img1book.style.color="#e54"){
+                 img1book.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       
+       book_btn.onclick=function(){
+           document.querySelector(".form").style.left="0px"
+       }
+        var count=1;
+        
+        inc.onclick=function(){
+            count++
+            total.innerHTML=count
+        }
+         dec.onclick=function(){
+            count--
+            total.innerHTML=count
+            if(count<=0){
+                Alertism({
+                    alertHeading:"Note",
+                    alertText:"You Have To Atleast Choose 1 Member",
+                    animation:"top",
+                    
+                })
+                count=1
+                total.innerHTML=count
+            }
+        }
+        
+        submit_btn.onclick=function(){
+            document.querySelector(".form").style.left="2000px"
+            document.querySelector(".info_ofp").style.left="2000px"
+            var sound=new Audio("https://www.dropbox.com/s/lxjpc8vqezfo0lz/piece-of-cake-611.mp3?dl=1")
+                 
+                 sound.play()
+            Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Enjoy", 
+            alertText: "Your Booking Has Been Reserved",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             setTimeout(function(){
+                 Toast({ position: 'top-left', showTimeLine: true, enableIcon: true, icon: { type: 'info', color: '#fff' }, animation: 'left', theme: 'glass', timer: 1, onClose: () => { Toast({ text: 'Due To Covid 19 Goverment Not Allowd To Go Outside.', enableIcon: true, position: 'top-left', animation: 'Left', showTimeLine: true, theme: 'dark-neumorphism', timer: 4500 }) } })
+                 
+                 
+             },5000)
+             
+        }
+        
+        book1.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+        }
+        book2.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Moab Utah"
+            lorem.innerHTML="IT IS DESERT PLACE IF YOU FILL HOT DONT GO HERE."
+            pimg2.src="https://media4.s-nbcnews.com/j/newscms/2018_25/1347087/travel-guide-for-moab-utah-arches-national-park-today-180619-tease_68f66bd8e63829e706b1fa7ab2ac4426.fit-760w.jpg"
+            price1.innerHTML="200$"
+            time1.innerHTML="8Days"
+        }
+        book3.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Joshua Tree Park"
+            lorem.innerHTML="Very Awesome Place To Visit.Joshua Trees Are Varity Of trees which are only foind here."
+            pimg2.src="https://national-park.com/wp-content/uploads/2016/04/Welcome-to-Joshua-Tree-National-Park.jpg"
+            price1.innerHTML="250$"
+            time1.innerHTML="7Days"
+        }
+        
+        img2book.onclick=function(){
+           img2book.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Moab Utha Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img2book.style.color="#e54"){
+                 img2book.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       img3book.onclick=function(){
+           img3book.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Joshua Park Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img3book.style.color="#e54"){
+                 img3book.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       
+       function got_urban(){
+           window.scroll({ top: 2000, left: 0, behavior: 'smooth' });
+           document.getElementById("go_up").style.display="block"
+       }
+       function got_desert(){
+           window.scroll({ top: 150, left: 0, behavior: 'smooth' });
+           document.getElementById("go_up").style.display="block"
+       } 
+       
+       
+       
+       
+       
+       
+       
+       img1book1.onclick=function(){
+           img1book1.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Burj Khalifa Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img1book1.style.color="#e54"){
+                 img1book1.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       img2book2.onclick=function(){
+           img2book2.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Eiffil Tower Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img2book2.style.color="#e54"){
+                 img2book2.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       img3book3.onclick=function(){
+           img3book3.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Mumbai Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(img3book3.style.color="#e54"){
+                 img3book3.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       var urban_book1=document.getElementById("urban-book1")
+       urban_book1.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Burj Khallifa"
+            lorem.innerHTML="IT IS A AWESOME BULIDING SO GO THERE AND ENJOY."
+            pimg2.src="https://img.etimg.com/thumb/msid-75708946,width-640,resizemode-4,imgsize-200977/bidding-for-burjs-external-lights.jpg"
+            price1.innerHTML="5000$"
+            time1.innerHTML="5Days"
+            type1.innerHTML="Urban"
+        }
+        
+        
+        var urban_book2=document.getElementById("urban-book2")
+       urban_book2.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Eiffil Tower"
+            lorem.innerHTML="IT IS A AWESOME TOWER GO THERE AND ENJOY."
+            pimg2.src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/12/eiffel.jpg?width=1200"
+            type1.innerHTML="Urban"
+            price1.innerHTML="1000$"
+            time1.innerHTML="12Days"
+        }
+        
+        var urban_book3=document.getElementById("urban-book3")
+       urban_book3.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Mumbai"
+            lorem.innerHTML="IT IS A ONE OF THE MOST URBAN CITY IN WORLD."
+           
+           type1.innerHTML="Urban"
+            pimg2.src="https://lp-cms-production.imgix.net/image_browser/Mumbai_nightlife_S.jpg"
+            price1.innerHTML="3000$"
+            time1.innerHTML="10Days"
+        }
+        
+        
+       var a =document.getElementById("t-book1").onclick=function(){
+          var a =document.getElementById("t-book1")
+           a.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Maldieves Added In Favrioutes",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(a.style.color="#e54"){
+                 a.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       var b=document.getElementById("t-book2").onclick=function(){
+           var b =document.getElementById("t-book2")
+           b.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Goa Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(b.style.color="#e54"){
+                 b.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       var c=document.getElementById("t-book3").onclick=function(){
+          var c=document.getElementById("t-book3")
+           c.style.color="#e54"
+           Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Succsesfull", 
+            alertText: "Hawai Added In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+             if(c.style.color="#e54"){
+                 c.onclick=function(){
+                     Alertism({
+            enableIcon: true,
+        icon: {
+            type: "info"
+        },
+            alertHeading: "Alert", 
+            alertText: "Allready In Favriouts",
+            theme:"glass",
+            animation:"zoom-in"
+             })
+                 }
+             }
+       }
+       
+       
+        var tropic_book1=document.getElementById("tropic-book1")
+       tropic_book1.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Maldieves"
+            lorem.innerHTML="IT IS A AWESOME BEACH SO GO THERE AND ENJOY."
+            pimg2.src="https://qtxasset.com/Hotel%20Management-1508949476/mercuremaldiveskoodooresortmaldivesexterior.jpg?zbxIScOeOJEvMU8kcH1pm8g7UG9zZegb"
+            price1.innerHTML="5000$"
+            time1.innerHTML="7Days"
+            type1.innerHTML="Tropical"
+        }
+        
+        
+        var tropic_book2=document.getElementById("tropic-book3")
+       tropic_book2.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="GOA"
+            lorem.innerHTML="IT IS A AWESOME BEACH CALLED GOA GO THERE AND ENJOY."
+            pimg2.src="https://imgk.timesnownews.com/story/Goa_beach_PTI_1200_4.jpg?tr=w-400,h-300,fo-auto"
+            type1.innerHTML="Tropic"
+            price1.innerHTML="1500$"
+            time1.innerHTML="7Days"
+        }
+        
+        var tropic_book3=document.getElementById("tropic-book4")
+       tropic_book3.onclick=function(){
+            document.querySelector(".info_ofp").style.left="0px"
+            e.innerHTML="Hawai"
+            lorem.innerHTML="IT IS A ONE OF THE MOST POPULAR BEACH IN WORLD."
+           
+           type1.innerHTML="Tropical"
+            pimg2.src="https://cdn.travelpulse.com/images/54aaedf4-a957-df11-b491-006073e71405/ee952e9e-f09c-49c2-bc5d-4303c880173a/630x355.jpg"
+            price1.innerHTML="3000$"
+            time1.innerHTML="10Days"
+        }
+        
+        function got_tropic(){
+            window.scroll({ top: 4000, left: 0, behavior: 'smooth' });
+            document.getElementById("go_up").style.display="block"
+       
+        }
+        
+        nav.onclick=function(){
+            document.querySelector(".full_nav").style.width="65%"
+            nav_home.style.display="block"
+            nav_settings.style.display="block"
+            nav_upload.style.display="block"
+            nav_profile.style.display="block"
+            nav_book.style.display="block"
+            nav_about.style.display="block"
+            nav_back.style.display="block"
+        }
+        
+        function clos_nav(){
+            document.querySelector(".full_nav").style.width="0%"
+            nav_home.style.display="none"
+            nav_settings.style.display="none"
+            nav_upload.style.display="none"
+            nav_profile.style.display="none"
+            nav_book.style.display="none"
+            nav_about.style.display="none"
+            nav_back.style.display="none"
+        }
+        
+        var scroll_height=document.body
+        
+        scroll_height.onscroll=function(){
+            
+        var winScroll = scroll_height.scrollTop;
+        var height = scroll_height.scrollHeight - scroll_height.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        
+        }
+        
+        
+        function dikha_cal(){
+            Alertism({
+                alertText:new Date()
+            })
+        }
+        
+        
+        icon5.onclick=function(){
+            document.querySelector(".main_profile").style.display="block"
+        }
+        
+        back_arrow.onclick=function(){
+            document.querySelector(".main_profile").style.display="none"
+        }
+        
+        function dark(){
+            document.querySelector("body").style.background="black"
+        }
+        
+        icon2.onclick=function(){
+            document.querySelector(".main_settings").style.display="block"
+            document.querySelector(".account_area").style.display="block"
+            document.querySelector(".not_area").style.display="block"
+            document.querySelector(".pri_area").style.display="block"
+            document.querySelector(".ab_area").style.display="block"
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        }
+        
+        back.onclick=function(){
+            document.querySelector(".main_settings").style.display="none"
+            document.querySelector(".account_area").style.display="none"
+            document.querySelector(".not_area").style.display="none"
+            document.querySelector(".pri_area").style.display="none"
+            document.querySelector(".ab_area").style.display="none"
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        }
+        
+        nav_settings.onclick=function(){
+            
+            document.querySelector(".main_settings").style.display="block"
+            document.querySelector(".account_area").style.display="block"
+            document.querySelector(".not_area").style.display="block"
+            document.querySelector(".pri_area").style.display="block"
+            document.querySelector(".ab_area").style.display="block"
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        document.querySelector(".full_nav").style.width="0%"
+        nav_home.style.display="none"
+            nav_settings.style.display="none"
+            nav_upload.style.display="none"
+            nav_profile.style.display="none"
+            nav_book.style.display="none"
+            nav_about.style.display="none"
+            nav_back.style.display="none"
+        }
+        
+        nav_profile.onclick=function(){
+            document.querySelector(".main_profile").style.display="block"
+            document.querySelector(".full_nav").style.width="0%"
+        nav_home.style.display="none"
+            nav_settings.style.display="none"
+            nav_upload.style.display="none"
+            nav_profile.style.display="none"
+            nav_book.style.display="none"
+            nav_about.style.display="none"
+            nav_back.style.display="none"
+        }
+        
+       
+        
+        settings_btn.onclick=function(){
+            document.querySelector(".main_settings").style.display="block"
+            document.querySelector(".account_area").style.display="block"
+            document.querySelector(".not_area").style.display="block"
+            document.querySelector(".pri_area").style.display="block"
+            document.querySelector(".ab_area").style.display="block"
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        }
+        function uper_ja(){
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+            
+                document.getElementById("go_up").style.display="none"
+            
+        }
+        
+        setTimeout(function(){
+            document.querySelector(".full_loading").style.display="none"
+           
+            
+        },5000)
+        
+        document.querySelector("body").onclick = function(event){
+        
+        
+        const point = document.querySelector("#point");
+        point.style.left = event.x-(point.offsetHeight/2)+"px";
+        point.style.top = event.y-(point.offsetWidth/2)+"px";
+        point.style.display = "block";
+        
+        setTimeout(function(){
+            point.style.display = "none";
+        },200)
+        navigator.vibrate(50)
+    }
+      
+    
+
+// Created by Achiever 💞 <;-;>
+var firebaseConfig = {
+  apiKey: "AIzaSyD9oCNNfBtTf6pDxgW1g0LmtpQxW_jWEVI",
+  authDomain: "travel-agency-8972a.firebaseapp.com",
+  projectId: "travel-agency-8972a",
+  storageBucket: "travel-agency-8972a.appspot.com",
+  messagingSenderId: "22222117056",
+  appId: "1:22222117056:web:1bc13960422d582966b525",
+  measurementId: "G-VS293FK57Z"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+function add_place() {
+  document.querySelector(".full_formofadd").style.display = "block"
+}
+
+function whutmo() {
+  var place = document.getElementById("add_location").value
+
+  var price = document.getElementById("add_price").value
+  var name = document.getElementById("add_names").value
+var image=document.getElementById("imageofadd").value
+
+  firebase.database().ref("places").push().set({
+    "name": name,
+    "price": price,
+    "place": place,
+    "image": image
+  });
+  document.querySelector(".full_formofadd").style.display = "none"
+}
+
+firebase.database().ref("places").on("child_added", function(snapshot) {
+
+
+  var html = `
+            <div class="card">
+        <h5 id="usernameofplace">${snapshot.val().name}</h5>
+        <h5 id="priceofplace">Price:${snapshot.val().price}$</h5>
+        
+                <h5 id="placeeofplace">${snapshot.val().place}</h5>
+                <img alt='No Image' src=${snapshot.val().image || ""} class="card-img" style='display:' + snapshot.val().image ? "block" : "none"}/>
+        </div>
+        `
+
+  var places = document.getElementById("places")
+  places.innerHTML = html + places.innerHTML;
+
+
+});
+
+function sh_places() {
+  var messages = document.getElementById("places").style.display = "block"
+}
+
+
+
+
+function doit(){
+  var input = document.createElement("input")
+  input.type = "file"
+  input.onchange = e => {
+    files = e.target.files;
+    reader = new FileReader()
+    reader.onload = function() {
+      document.getElementById("addImg").src = reader.result;
+document.getElementById("imageofadd").value=reader.result
+    }
+    reader.readAsDataURL(files[0])
+  }
+
+  input.click()
+  addImg.style.zIndex = "100"
+document.getElementById("imageofadd").value=reader.result
+}
+function placesback(){
+    var places = document.getElementById("places").style.display="none"
+}
+
+function profilelaga(){
+    var input = document.createElement("input")
+  input.type = "file"
+  input.onchange = e => {
+    files = e.target.files;
+    reader = new FileReader()
+    reader.onload = function() {
+      document.getElementById("addImg").src = reader.result;
+
+    }
+    reader.readAsDataURL(files[0])
+  }
+
+  input.click()
+  
+}
+        </script>
+        
+        
+    </body>
+</html>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
